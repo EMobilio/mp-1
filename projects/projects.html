@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Eytan Mobilio's projects.">
+        <link rel="stylesheet" type="text/css" href="projects.css">
+        <title>Projects | Eytan's Resume</title>
+    </head>
+
+    <body>
+        <div id="site-wrapper">
+            <!-- Header section -->
+            <header>
+                <h1>Eytan Mobilio</h1>
+                <p>Online Resume</p>
+            </header>
+            <!-- End header section -->
+
+            <div id="container">
+                <!-- Navigation section -->
+                <nav>
+                    <!-- Internal navigation links -->
+                    <ul>
+                        <li><a href="../home/index.html">Home</a></li>
+                        <li><a href="../education/education.html">Education</a></li>
+                        <li><a href="../experience/experience.html">Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="../skills/skills.html">Skills</a></li>
+                        <li><a href="../references/references.html">References</a></li>
+                    </ul>
+                </nav>
+                <!-- End navigation section-->
+
+                <!-- Main content section -->
+                <main>
+                    <h2>Projects</h2>
+
+                    <!-- List of projects -->
+                    <ul>
+                        <!-- Project # 1 -->
+                        <li class="project">
+                            <a href=" https://marketdig.app" target="_blank" class="project-link">MarketDig</a>
+                            <ul>
+                                <li class="bullet">
+                                    <p>
+                                        Specialized in development of the frontend of a market research tool
+                                        for aspiring small business owners using React and Redux, delivering a
+                                        responsive and user-friendly interface
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Designed and implemented web scraping scripts using Playwright to efficiently
+                                        gather data for backend integration
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Played a key role in the design and development of the application architecture,
+                                        optimizing the overall structure and performance, while also assisting in debugging
+                                        and troubleshooting backend code to maintain system stability and reliability
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Project # 2 -->
+                        <li class="project">
+                            <a href="https://limitless-sierra-80433-a3b989f436f9.herokuapp.com/project/"
+                               target="_blank"
+                               class="project-link">
+                                FlickPick
+                            </a>
+                            <ul>
+                                <li class="bullet">
+                                    <p>
+                                        Designed and developed a full-stack web application using Django, enabling users
+                                        to browse, review, and receive recommendations for movies and TV shows stored in
+                                        a SQLite database with thousands of records
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Designed and implemented personalized recommendation systems using user
+                                        preferences and social features like friend-based suggestions
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Created a trending page with interactive line charts using Pandas and
+                                        Plotly to visualize weekly movie/TV trends
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Delivered a robust platform that enhanced user engagement and discoverability
+                                        through features like ratings, reviews, watchlists, and personalized
+                                        recommendations
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Project # 3 -->
+                        <li class="project">
+                            <a href="https://github.com/EMobilio/tetris-agent"
+                               target="_blank"
+                               class="project-link">
+                                Tetris Agent
+                            </a>
+                            <ul>
+                                <li class="bullet">
+                                    <p>
+                                        Designed and implemented a Temporal Difference Learning Q-Agent in Java using
+                                        neural network and linear algebra libraries (developed for a course) to play Tetris
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Engineered features, designed the neural network structure, and developed a
+                                        custom reward function to guide the agent’s learning
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Trained the agent on hundreds of thousands of games, improving performance
+                                        from consistently scoring 0 points to clearing dozens of lines per game
+                                    </p>
+                                </li>
+                                <li class="bullet">
+                                    <p>
+                                        Leveraged reinforcement learning principles to transform random gameplay into
+                                        more strategic decision-making
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Begin calculator section-->
+                    <div id="calculator-container">
+                        <h3>Super Calc 3000</h3>
+
+                        <!-- Inputs for operands -->
+                        <div id="inputs">
+                            <label for="first-number"></label><input type="text" id="first-number">
+                            <label for="second-number"></label><input type="text" id="second-number">
+                        </div>
+
+                        <!-- Buttons for operations -->
+                        <div id="button-container">
+                            <button onclick="addition()">+</button>
+                            <button onclick="subtraction()">-</button>
+                            <button onclick="multiplication()">*</button>
+                            <button onclick="division()">/</button>
+                            <button onclick="power()">**</button>
+                            <button onclick="clearCalc()" id="clear">Clear</button>
+                        </div>
+
+                        <!-- Output -->
+                        <div id="output-container">
+                            <h4 id="output"></h4>
+                        </div>
+                    </div>
+                    <!-- End calculator section -->
+                </main>
+                <!-- End main content section -->
+            </div>
+
+            <!-- Footer section -->
+            <footer>
+                <!-- Copyright statement -->
+                <p>All Rights Reserved by Eytan Mobilio: <a href="credits.html">Credits</a> &copy;</p>
+            </footer>
+            <!-- End footer section -->
+        </div>
+
+        <script src="projects.js"></script>
+    </body>
+</html>

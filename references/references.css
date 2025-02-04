@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#site-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+}
+
+/* Begin vertical navbar styling */
+nav {
+    width: 30%;
+    padding: 2%;
+    background-color: #27272c;
+}
+
+nav ul {
+    list-style: none;
+    font-size: calc(3px + 1.5vw);
+    padding-left: 0;
+}
+
+nav li {
+    margin: 10% auto;
+    width: 80%;
+    padding: 1%;
+    text-align: center;
+    background-color: #00ADB5;
+    border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+nav a:hover {
+    color: #818080;
+}
+
+nav li:hover {
+    background-color: #107273;
+}
+/* End vertical navbar styling */
+
+/* Begin header styling */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vh 1.5vw;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+header h1 {
+    margin-bottom: 1vh;
+}
+/* End header styling */
+
+/* Begin main styling */
+main {
+    width: 70%;
+    height: 100vh;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+main h2 {
+    text-align: center;
+    font-size: calc(2px + 2vw);
+    margin: 2% 0;
+}
+
+main h3 {
+    font-size: calc(2px + 1.5vw);
+    text-align: center;
+    margin: 4vh 0;
+}
+/* End main styling */
+
+/* Begin main content two column format styling */
+#container {
+    display: flex;
+    flex-direction: row;
+}
+/* End main content styling */
+
+/* Begin table styling */
+table {
+    margin: auto;
+    width: 60%;
+}
+
+th, td {
+    padding: 1vh 1vw;
+    border: 2px solid #00ADB5;
+    font-size: calc(2px + 1vw);
+}
+/* End table styling */
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color: #393E46;
+    color: #EEEEEE;
+    font-size: calc(1px + 1.25vw);
+}
+
+footer a {
+    color: #00ADB5;
+}
+
+footer a:hover {
+    color: #107273;
+}
+/* End footer styling */
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 750px) {
+    header {
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        font-size: calc(3px + 2vw);
+    }
+
+    nav li {
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main h2 {
+        font-size: calc(2px + 3vw);
+    }
+
+    main h3 {
+        font-size: calc(2px + 2.5vw);
+    }
+
+    th, td {
+        font-size: calc(2px + 2vw);
+    }
+
+    footer {
+        font-size: calc(1px + 2.25vw);
+    }
+}
