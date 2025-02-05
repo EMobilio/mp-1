@@ -33,11 +33,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #27272c;
 }
 
 nav a:hover {
-    color: #818080;
+    color: #EEEEEE;
 }
 
 nav li:hover {
@@ -105,7 +105,7 @@ footer {
 }
 
 footer a {
-    color: #00ADB5;
+    color: #04f5ff;
 }
 
 footer a:hover {
