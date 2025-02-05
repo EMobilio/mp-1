@@ -63,6 +63,7 @@ header h1 {
 main {
     width: 70%;
     height: 100vh;
+    min-height: fit-content;
     background-color: #222831;
     color: #EEEEEE;
 }
@@ -89,7 +90,7 @@ main h3 {
 
 /* Begin table styling */
 table {
-    margin: auto;
+    margin: 2vh auto 12%;
     width: 60%;
 }
 
@@ -146,6 +147,7 @@ footer a:hover {
 
     main {
         width: 100%;
+        height: 82vh;
     }
 
     main h2 {
@@ -154,6 +156,10 @@ footer a:hover {
 
     main h3 {
         font-size: calc(2px + 2.5vw);
+    }
+
+    table {
+        margin-bottom: 18%;
     }
 
     th, td {

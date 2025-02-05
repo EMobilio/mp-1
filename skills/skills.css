@@ -63,6 +63,7 @@ header h1 {
 main {
     width: 70%;
     height: 100vh;
+    min-height: fit-content;
     background-color: #222831;
     color: #EEEEEE;
 }
@@ -85,7 +86,7 @@ main ul {
 
 main li {
     font-size: calc(2px + 1.25vw);
-    margin: 1.5vh 1.5vw;
+    margin: 2vh 1.5vw;
     border-left: 3px solid #00ADB5;
     padding-left: 1.5vw;
 }
@@ -155,6 +156,7 @@ footer a:hover {
 
     main {
         width: 100%;
+        height: 82vh;
     }
 
     main h2 {
@@ -167,6 +169,7 @@ footer a:hover {
 
     main li {
         font-size: calc(2px + 2.25vw);
+        margin-bottom: 3vh;
     }
 
     footer {

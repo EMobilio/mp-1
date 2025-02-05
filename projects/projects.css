@@ -62,7 +62,8 @@ header h1 {
 /* Begin main styling */
 main {
     width: 70%;
-    height: 100%;
+    height: 100vh;
+    min-height: fit-content;
     background-color: #222831;
     color: #EEEEEE;
 }
