@@ -125,7 +125,7 @@ footer {
 }
 
 /* Responsive layout for smaller screens */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     header {
         align-items: center;
     }
