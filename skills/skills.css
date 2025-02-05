@@ -156,7 +156,8 @@ footer a:hover {
 
     main {
         width: 100%;
-        height: 82vh;
+        height: min-content;
+        min-height: 82vh;
     }
 
     main h2 {
