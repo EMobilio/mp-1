@@ -161,15 +161,15 @@ footer a:hover {
     }
 
     main h2 {
-        font-size: calc(2px + 3vw);
+        font-size: calc(3px + 3vw);
     }
 
     main h3 {
-        font-size: calc(2px + 2.5vw);
+        font-size: calc(3px + 2.5vw);
     }
 
     main li {
-        font-size: calc(2px + 2.25vw);
+        font-size: calc(3px + 2.25vw);
         margin-bottom: 3vh;
     }
 

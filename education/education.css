@@ -151,11 +151,11 @@ footer a:hover {
     }
 
     main h2 {
-        font-size: calc(2px + 3vw);
+        font-size: calc(3px + 3vw);
     }
 
     main p {
-        font-size: calc(2px + 2.25vw);
+        font-size: calc(2px + 2.5vw);
     }
 
     main ul {

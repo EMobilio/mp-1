@@ -152,19 +152,20 @@ footer a:hover {
     }
 
     main h2 {
-        font-size: calc(2px + 3vw);
+        font-size: calc(3px + 3vw);
     }
 
     main h3 {
-        font-size: calc(2px + 2.5vw);
+        font-size: calc(3px + 2.5vw);
     }
 
     table {
         margin-bottom: 18%;
+        width: 80%;
     }
 
     th, td {
-        font-size: calc(2px + 2vw);
+        font-size: calc(3px + 2.25vw);
     }
 
     footer {

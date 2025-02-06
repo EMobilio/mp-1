@@ -157,15 +157,15 @@ footer a:hover {
     }
 
     main h2 {
-        font-size: calc(2px + 3vw);
+        font-size: calc(3px + 3vw);
     }
 
     main p {
-        font-size: calc(2px + 2.25vw);
+        font-size: calc(3px + 2.25vw);
     }
 
     .bullet p {
-        font-size: calc(2px + 2vw);
+        font-size: calc(4px + 2vw);
     }
 
     footer {

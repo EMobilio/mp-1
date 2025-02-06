@@ -191,6 +191,7 @@ button, #inputs input, #output-container {
     width: 8vw;
     height: 100%;
     background-color: darkred;
+    color: gold;
 }
 /* End calculator styling */
 
@@ -245,15 +246,15 @@ footer a:hover {
     }
 
     main h2 {
-        font-size: calc(2px + 3vw);
+        font-size: calc(3px + 3vw);
     }
 
     main p {
-        font-size: calc(2px + 2vw);
+        font-size: calc(4px + 2vw);
     }
 
     .project-link {
-        font-size: calc(2px + 2.25vw);
+        font-size: calc(4px + 2.25vw);
     }
 
     footer {
