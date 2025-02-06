@@ -271,6 +271,8 @@ footer a:hover {
         width: 6vw;
         height: 6vw;
         margin: 0.5vw auto;
+        padding: 5%;
+        border-width: 2px;
     }
 
     #clear {
